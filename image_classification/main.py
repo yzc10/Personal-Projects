@@ -1,9 +1,3 @@
-"""
-Guideline of your submission of HW3.
-If you have any questions in regard to submission,
-please contact TA: Ma Zhiyuan <e0983565@u.nus.edu>
-"""
-
 from os import chdir,walk,listdir,makedirs,path,remove
 import numpy as np
 import math
@@ -458,17 +452,7 @@ def build_model(model_type):
         model.layers[0] = nn.Conv2d(1,32,kernel_size=(3,3),stride=(2,2),padding=(1,1),bias=False).to(device)
     return model
 
-###################################### Main train and test Function ####################################################
-"""
-Main train and test function. You could call the subroutines from the `Subroutines` sections. Please kindly follow the 
-train and test guideline.
-
-`train` function should contain operations including loading training images, computing features, constructing models, training 
-the models, computing accuracy, saving the trained model, etc
-`test` function should contain operations including loading test images, loading pre-trained model, doing the test, 
-computing accuracy, etc.
-"""
-
+###################################### Train and Test Functions ###################################################
 def train(train_data_dir,config,model_type,model_dir=None,transform=True,**kwargs):
     """Main training model.
 
@@ -596,7 +580,7 @@ if __name__ == '__main__':
     import argparse
     
     # # [Uncomment if required] Set path variable:
-    # p = r'C:\YZC\NUS\Semester 2\DSA5203 Visual Data Processing and Interpretation\Assignments\assignment_3'
+    # p = r'PATH'
     # chdir(p)
 
     parser = argparse.ArgumentParser()
