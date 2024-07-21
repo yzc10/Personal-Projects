@@ -1,5 +1,4 @@
-# AIAP_BOOTCAMP_CAPSTONE_PROJECT
-Capstone Project
+# Classification of Dysfunctional Thoughts for Cognitive Behavioral Therapy (CBT)
 
 ## Literature Review
 Cognitive Behavioral Therapy (CBT) is a widely used and effective form of psychotherapy that focuses on identifying and modifying dysfunctional thoughts, beliefs, and behaviors that contribute to psychological distress. (Miller, 2019) The core principles of CBT are broadly as follows: 
