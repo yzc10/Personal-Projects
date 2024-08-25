@@ -4,7 +4,7 @@
     a. Add a job description file to the job_descriptions folder.
     b. Add a company description file (including a brief description of the company and the key responsibilities in the job)
     c. Name each file as {company}.txt
-2. Change directory to this folder and activate llm-env environment
+2. Change directory to this folder and activate environment with the required libraries installed.
 
 ### To write cover letter:
 1. Run main.py. Specify jd files if only specific roles are concerned. 
