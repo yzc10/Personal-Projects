@@ -8,8 +8,8 @@ Broadly, the projects span the following domains/topics:
     - Mock-up of agent that answers insurance-related questions with RAG.
 - **NLP (text classification & generation)**. Highlight(s) include:
     - Dysfunctional thoughts classifier project - classify dysfunctional thoughts into CBT-based categories
-    - Citation type classifier project - classify citations into a group of citation types
-    - Stock portfolio helper project (WIP) - recommend stocks to buy or sell everyday. WIP, but currently features a data processing workflow that labels article data using an LLM agent to train an article-labelling model
+    - Citation type classifier project - classify citations into citation types, as specified by SciCite dataet
+    - Stock portfolio helper project (WIP) - recommend stocks to buy or sell everyday. WIP, but currently features a multi-agent workflow for data labelling and a RoBERTa classifier to identify 'relevant' articles
 - **Image processing & classification**. Highlight(s) include:
     - Image rectification project, featuring line detection, homography and other image processing techniques
 - **Other ML projects** (e.g. stock predictions, implementations of specific algorithms). Highlight(s) include:
